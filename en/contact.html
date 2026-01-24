@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Contact Kemal Gokhan - Get in touch for DevOps consulting, cloud architecture, and AI/ML projects.">
+    <title>Contact | Kemal Gokhan</title>
+    <link rel="stylesheet" href="../src/design-system.css">
+    <link rel="stylesheet" href="../src/components.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="bg-animated">
+        <div class="bg-glow glow-1"></div>
+        <div class="bg-glow glow-2"></div>
+    </div>
+
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a href="index.html" class="navbar-logo"><i class="fas fa-code"></i><span>Kemal Gokhan</span></a>
+            <button class="menu-toggle" id="menuToggle"><span></span><span></span><span></span></button>
+            <ul class="navbar-menu" id="navbarMenu">
+                <li><a href="index.html" class="navbar-link">Home</a></li>
+                <li><a href="about.html" class="navbar-link">About</a></li>
+                <li><a href="skills.html" class="navbar-link">Skills</a></li>
+                <li><a href="projects.html" class="navbar-link">Projects</a></li>
+                <li><a href="contact.html" class="navbar-link active">Contact</a></li>
+                <li>
+                    <div class="lang-switcher"><button class="lang-btn active" data-lang="en">EN</button><button
+                            class="lang-btn" data-lang="tr">TR</button></div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <main style="padding-top: 100px;">
+        <section class="container">
+            <div class="section-header animate-in">
+                <h1 class="section-title">Get In Touch</h1>
+                <p class="section-subtitle">Let's build something amazing together</p>
+            </div>
+
+            <div class="grid-2 mt-4xl" style="gap: 3rem;">
+                <div class="animate-in delay-1">
+                    <h2 style="margin-bottom: 2rem;">Let's Connect</h2>
+                    <p style="color: var(--text-secondary); line-height: 1.8; margin-bottom: 2rem;">
+                        I'm always interested in hearing about new opportunities, challenging projects, and innovative
+                        ideas.
+                        Whether you need help with cloud architecture, DevOps transformation, or AI integration, I'd
+                        love to hear from you.
+                    </p>
+
+                    <div class="glass-card" style="margin-bottom: 1.5rem;">
+                        <div style="display: flex; align-items: center; gap: 1rem;">
+                            <div
+                                style="width: 50px; height: 50px; background: var(--gradient-primary); border-radius: 12px; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
+                                <i class="fas fa-envelope" style="color: white; font-size: 20px;"></i>
+                            </div>
+                            <div>
+                                <div style="font-weight: 600; margin-bottom: 0.25rem;">Email</div>
+                                <a href="mailto:contact@kemal.devopsyolu.tr"
+                                    style="color: var(--text-accent);">contact@kemal.devopsyolu.tr</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="glass-card" style="margin-bottom: 1.5rem;">
+                        <div style="display: flex; align-items: center; gap: 1rem;">
+                            <div
+                                style="width: 50px; height: 50px; background: var(--gradient-ai); border-radius: 12px; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
+                                <i class="fas fa-map-marker-alt" style="color: white; font-size: 20px;"></i>
+                            </div>
+                            <div>
+                                <div style="font-weight: 600; margin-bottom: 0.25rem;">Location</div>
+                                <div style="color: var(--text-secondary);">Remote / Worldwide</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="glass-card">
+                        <div style="display: flex; align-items: center; gap: 1rem;">
+                            <div
+                                style="width: 50px; height: 50px; background: var(--gradient-success); border-radius: 12px; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
+                                <i class="fas fa-clock" style="color: white; font-size: 20px;"></i>
+                            </div>
+                            <div>
+                                <div style="font-weight: 600; margin-bottom: 0.25rem;">Availability</div>
+                                <div style="color: var(--accent-success);">Available for consulting & collaboration
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div style="margin-top: 3rem;">
+                        <h3 style="margin-bottom: 1.5rem;">Follow Me</h3>
+                        <div class="social-links" style="justify-content: flex-start;">
+                            <a href="https://github.com/yourusername" target="_blank" class="social-link"><i
+                                    class="fab fa-github"></i></a>
+                            <a href="https://linkedin.com/in/yourusername" target="_blank" class="social-link"><i
+                                    class="fab fa-linkedin"></i></a>
+                            <a href="https://youtube.com/@devopsyolu" target="_blank" class="social-link"><i
+                                    class="fab fa-youtube"></i></a>
+                            <a href="https://twitter.com/yourusername" target="_blank" class="social-link"><i
+                                    class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="glass-card animate-in delay-2">
+                    <h3 style="margin-bottom: 1.5rem;">Send a Message</h3>
+                    <form id="contactForm" style="display: flex; flex-direction: column; gap: 1.5rem;">
+                        <div>
+                            <label style="display: block; margin-bottom: 0.5rem; font-weight: 600;">Your Name</label>
+                            <input type="text" name="name" required
+                                style="width: 100%; padding: 0.875rem; background: var(--bg-tertiary); border: 1px solid var(--glass-border); border-radius: 12px; color: var(--text-primary); font-family: var(--font-body); font-size: 1rem;">
+                        </div>
+
+                        <div>
+                            <label style="display: block; margin-bottom: 0.5rem; font-weight: 600;">Your Email</label>
+                            <input type="email" name="email" required
+                                style="width: 100%; padding: 0.875rem; background: var(--bg-tertiary); border: 1px solid var(--glass-border); border-radius: 12px; color: var(--text-primary); font-family: var(--font-body); font-size: 1rem;">
+                        </div>
+
+                        <div>
+                            <label style="display: block; margin-bottom: 0.5rem; font-weight: 600;">Message</label>
+                            <textarea name="message" rows="6" required
+                                style="width: 100%; padding: 0.875rem; background: var(--bg-tertiary); border: 1px solid var(--glass-border); border-radius: 12px; color: var(--text-primary); font-family: var(--font-body); font-size: 1rem; resize: vertical;"></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary" style="width: 100%;">
+                            <i class="fas fa-paper-plane"></i> Send Message
+                        </button>
+
+                        <div id="formStatus"
+                            style="display: none; padding: 1rem; border-radius: 12px; text-align: center;"></div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="mt-4xl mb-4xl">
+                <div class="glass-card animate-in" style="text-align: center; padding: 3rem;">
+                    <i class="fab fa-youtube" style="font-size: 4rem; color: #ff0000; margin-bottom: 1.5rem;"></i>
+                    <h2 style="margin-bottom: 1rem;">Don't forget to check out my YouTube channel!</h2>
+                    <p
+                        style="color: var(--text-secondary); margin-bottom: 2rem; max-width: 600px; margin-left: auto; margin-right: auto;">
+                        Join thousands of engineers learning DevOps, AWS, Kubernetes, and AI/ML through practical,
+                        hands-on tutorials.
+                    </p>
+                    <a href="https://youtube.com/@devopsyolu" target="_blank" class="btn btn-primary btn-lg">
+                        <i class="fab fa-youtube"></i> Subscribe to @devopsyolu
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="social-links">
+                    <a href="https://github.com/yourusername" target="_blank" class="social-link"><i
+                            class="fab fa-github"></i></a>
+                    <a href="https://linkedin.com/in/yourusername" target="_blank" class="social-link"><i
+                            class="fab fa-linkedin"></i></a>
+                    <a href="https://youtube.com/@devopsyolu" target="_blank" class="social-link"><i
+                            class="fab fa-youtube"></i></a>
+                    <a href="https://twitter.com/yourusername" target="_blank" class="social-link"><i
+                            class="fab fa-twitter"></i></a>
+                </div>
+                <p>&copy; 2026 Kemal Gokhan. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script type="module" src="../src/common.js"></script>
+    <script>
+        // Simple form handling (frontend only - can integrate with Formspree or similar service)
+        document.getElementById('contactForm').addEventListener('submit', function (e) {
+            e.preventDefault();
+            const status = document.getElementById('formStatus');
+            status.style.display = 'block';
+            status.style.background = 'var(--gradient-success)';
+            status.textContent = 'Thank you! Your message has been received. I\'ll get back to you soon.';
+            this.reset();
+
+            setTimeout(() => {
+                status.style.display = 'none';
+            }, 5000);
+        });
+    </script>
+</body>
+
+</html>

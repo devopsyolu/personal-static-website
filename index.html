@@ -1,144 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description"
-    content="Kemal Gokhan - AI Cloud Architect & DevOps Engineer. Expert in AWS, Machine Learning Operations, and Cloud Native Infrastructure." />
-  <title>Kemal Gokhan | AI & Cloud Architect</title>
-  <link rel="stylesheet" href="./style.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Kemal Gokhan - DevOps Engineer & AI Cloud Architect. Expert in AWS, Kubernetes, and AI/ML Solutions.">
+  <title>Kemal Gokhan | DevOps & AI Cloud Architect</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      font-family: system-ui, -apple-system, sans-serif;
+      color: white;
+    }
+    .loader {
+      text-align: center;
+    }
+    .spinner {
+      width: 50px;
+      height: 50px;
+      border: 4px solid rgba(255,255,255,0.3);
+      border-top-color: white;
+      border-radius: 50%;
+      animation: spin 0.8s linear infinite;
+      margin: 0 auto 20px;
+    }
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+  </style>
 </head>
-
 <body>
-
-  <div class="bg-glow glow-1"></div>
-  <div class="bg-glow glow-2"></div>
-
-  <main>
-    <!-- Hero Section -->
-    <section class="hero container">
-      <div class="hero-content">
-        <h1 class="animate-in">Architecting the <br /><span class="gradient-text">Future of Cloud</span> & <span
-            class="ai-text">Artificial Intelligence</span></h1>
-        <p class="animate-in delay-1">
-          Hi, I'm <strong>Kemal Gokhan</strong>. <br />
-          DevOps Engineer & Cloud Architect with <strong>9+ years</strong> of experience building scalable AWS
-          infrastructures and AI-driven solutions.
-        </p>
-        <div class="cta-group animate-in delay-2">
-          <a href="https://youtube.com/@devopsyolu" target="_blank" class="btn btn-primary">
-            <i class="fab fa-youtube"></i> @devopsyolu
-          </a>
-          <a href="mailto:contact@kemal.devopsyolu.tr" class="btn btn-secondary">
-            <i class="fas fa-envelope"></i> Contact Me
-          </a>
-        </div>
-
-        <div class="tech-cloud animate-in delay-3">
-          <span class="tech-pill">AWS Solutions Architect</span>
-          <span class="tech-pill">Kubernetes</span>
-          <span class="tech-pill">Generative AI</span>
-          <span class="tech-pill">MLOps</span>
-          <span class="tech-pill">Terraform</span>
-          <span class="tech-pill">Python</span>
-        </div>
-      </div>
-    </section>
-
-    <!-- Focus Areas -->
-    <section class="container">
-      <div class="grid-3 animate-in delay-2">
-        <div class="card">
-          <div class="topic-icon" style="background: linear-gradient(135deg, #FF6B6B 0%, #d63384 100%);">
-            <i class="fas fa-cloud"></i>
-          </div>
-          <h3>Cloud Native Tech</h3>
-          <p style="margin-top: 1rem; color: var(--text-secondary);">
-            Designing resilient serverless architectures using AWS Lambda, Fargate, and EventBridge. Expert in
-            multi-region deployments.
-          </p>
-        </div>
-        <div class="card">
-          <div class="topic-icon" style="background: linear-gradient(135deg, #3b82f6 0%, #2dd4bf 100%);">
-            <i class="fas fa-brain"></i>
-          </div>
-          <h3>AI & Bedrock</h3>
-          <p style="margin-top: 1rem; color: var(--text-secondary);">
-            Building next-gen AI applications with AWS Bedrock, SageMaker, and LangChain. Integrating LLMs into
-            enterprise workflows.
-          </p>
-        </div>
-        <div class="card">
-          <div class="topic-icon" style="background: linear-gradient(135deg, #8b5cf6 0%, #6366f1 100%);">
-            <i class="fas fa-code-branch"></i>
-          </div>
-          <h3>DevOps Automation</h3>
-          <p style="margin-top: 1rem; color: var(--text-secondary);">
-            Automating everything from CI/CD pipelines to infrastructure provisioning with Terraform and GitHub Actions.
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <!-- Featured Projects -->
-    <section class="container" style="margin-top: 6rem;">
-      <h2 class="animate-in">Architectural <span class="gradient-text">Masterpieces</span></h2>
-      <div id="projects-container" class="grid-3" style="margin-top: 2rem;">
-        <!-- Injected by JS -->
-      </div>
-    </section>
-
-    <!-- YouTube Videos -->
-    <section class="container" style="margin-top: 6rem; margin-bottom: 6rem;">
-      <div class="animate-in"
-        style="display: flex; justify-content: space-between; align-items: end; flex-wrap: wrap; gap: 1rem;">
-        <div>
-          <span class="yt-badge">@devopsyolu</span>
-          <h2>Latest form the <span style="color: #ff0000;">Channel</span></h2>
-        </div>
-        <a href="https://youtube.com/@devopsyolu" target="_blank" style="color: var(--text-accent); font-weight: 600;">
-          View All Videos <i class="fas fa-arrow-right"></i>
-        </a>
-      </div>
-
-      <div id="video-container" class="video-grid">
-        <!-- Injected by JS -->
-      </div>
-    </section>
-
-  </main>
-
-  <footer>
-    <div class="container">
-      <p>&copy; 2026 Kemal Gokhan.</p>
-      <p style="font-size: 0.9rem; margin-top: 0.5rem; opacity: 0.5;">
-        <a href="https://kemal.devopsyolu.tr">kemal.devopsyolu.tr</a> &bull; DevOps Yolu
-      </p>
-    </div>
-  </footer>
-
-  <script type="module" src="/src/main.js"></script>
+  <div class="loader">
+    <div class="spinner"></div>
+    <p>Redirecting...</p>
+  </div>
+  
   <script>
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add('visible'); // If using CSS class based animation
-          entry.target.style.animationPlayState = 'running';
-        }
-      });
-    });
-    // Wait for DOM to handle dynamically injected elements? 
-    // Actually we should observe after injection or use a MutationObserver. 
-    // For simplicity, let's just observe static elements here and handle dynamic ones in JS if needed.
-    setTimeout(() => {
-      document.querySelectorAll('.animate-in').forEach((el) => {
-        el.style.animationPlayState = 'paused';
-        observer.observe(el);
-      });
-    }, 500); // Small delay to allow JS injection
+    // Language detection and redirect
+    (function() {
+      // Detect browser language
+      const browserLang = navigator.language.split('-')[0];
+      
+      // Redirect to appropriate language
+      const targetLang = browserLang === 'tr' ? 'tr' : 'en';
+      
+      // Redirect after short delay
+      setTimeout(() => {
+        window.location.href = `/${targetLang}/`;
+      }, 500);
+    })();
   </script>
 </body>
-
 </html>

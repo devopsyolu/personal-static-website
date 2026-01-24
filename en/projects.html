@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Projects Portfolio - Enterprise DevOps and AI solutions by Kemal Gokhan">
+    <title>Projects | Kemal Gokhan</title>
+    <link rel="stylesheet" href="../src/design-system.css">
+    <link rel="stylesheet" href="../src/components.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="bg-animated">
+        <div class="bg-glow glow-1"></div>
+        <div class="bg-glow glow-2"></div>
+    </div>
+
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a href="index.html" class="navbar-logo"><i class="fas fa-code"></i><span>Kemal Gokhan</span></a>
+            <button class="menu-toggle" id="menuToggle"><span></span><span></span><span></span></button>
+            <ul class="navbar-menu" id="navbarMenu">
+                <li><a href="index.html" class="navbar-link">Home</a></li>
+                <li><a href="about.html" class="navbar-link">About</a></li>
+                <li><a href="skills.html" class="navbar-link">Skills</a></li>
+                <li><a href="projects.html" class="navbar-link active">Projects</a></li>
+                <li><a href="contact.html" class="navbar-link">Contact</a></li>
+                <li>
+                    <div class="lang-switcher"><button class="lang-btn active" data-lang="en">EN</button><button
+                            class="lang-btn" data-lang="tr">TR</button></div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <main style="padding-top: 100px;">
+        <section class="container">
+            <div class="section-header animate-in">
+                <h1 class="section-title">Projects & <span class="gradient-text">Portfolio</span></h1>
+                <p class="section-subtitle">Real-world solutions that make an impact</p>
+            </div>
+
+            <div class="mt-4xl">
+                <h2 class="animate-in" style="margin-bottom: 2rem;"><i class="fas fa-building"
+                        style="color: var(--accent-primary);"></i> Enterprise Solutions</h2>
+
+                <div class="grid-3">
+                    <div class="project-card animate-in delay-1">
+                        <div class="project-content">
+                            <div
+                                style="width: 80px; height: 80px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 16px; margin-bottom: 1.5rem; display: flex; align-items: center; justify-content: center;">
+                                <i class="fas fa-brain" style="font-size: 36px; color: white;"></i>
+                            </div>
+                            <h3>Enterprise GenAI RAG Pipeline</h3>
+                            <p style="color: var(--text-secondary); margin: 1rem 0;">
+                                Designed a secure Retrieval-Augmented Generation system using AWS Bedrock, Kendra, and
+                                Lambda to enable employees
+                                to query internal documentation with 95% accuracy. Processed 100K+ queries monthly.
+                            </p>
+                            <div class="project-tags">
+                                <span class="tag-sm">AWS Bedrock</span>
+                                <span class="tag-sm">LangChain</span>
+                                <span class="tag-sm">Python</span>
+                                <span class="tag-sm">Kendra</span>
+                                <span class="tag-sm">Lambda</span>
+                            </div>
+                            <div
+                                style="margin-top: 1.5rem; padding-top: 1.5rem; border-top: 1px solid var(--glass-border);">
+                                <strong style="color: var(--accent-success);">Impact:</strong>
+                                <p style="color: var(--text-tertiary); font-size: 0.875rem; margin-top: 0.5rem;">
+                                    Reduced documentation search time by 80%, saving engineering team 200+ hours monthly
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card animate-in delay-2">
+                        <div class="project-content">
+                            <div
+                                style="width: 80px; height: 80px; background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); border-radius: 16px; margin-bottom: 1.5rem; display: flex; align-items: center; justify-content: center;">
+                                <i class="fas fa-globe" style="font-size: 36px; color: white;"></i>
+                            </div>
+                            <h3>Multi-Region Kubernetes Mesh</h3>
+                            <p style="color: var(--text-secondary); margin: 1rem 0;">
+                                Architected a fault-tolerant EKS environment across 3 AWS regions using Cilium Service
+                                Mesh.
+                                Achieved 99.99% availability for mission-critical banking applications serving 2M+ daily
+                                users.
+                            </p>
+                            <div class="project-tags">
+                                <span class="tag-sm">EKS</span>
+                                <span class="tag-sm">Cilium</span>
+                                <span class="tag-sm">Terraform</span>
+                                <span class="tag-sm">GitOps</span>
+                                <span class="tag-sm">ArgoCD</span>
+                            </div>
+                            <div
+                                style="margin-top: 1.5rem; padding-top: 1.5rem; border-top: 1px solid var(--glass-border);">
+                                <strong style="color: var(--accent-success);">Impact:</strong>
+                                <p style="color: var(--text-tertiary); font-size: 0.875rem; margin-top: 0.5rem;">
+                                    Zero downtime during regional outages, improved disaster recovery from 4 hours to 5
+                                    minutes
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card animate-in delay-3">
+                        <div class="project-content">
+                            <div
+                                style="width: 80px; height: 80px; background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); border-radius: 16px; margin-bottom: 1.5rem; display: flex; align-items: center; justify-content: center;">
+                                <i class="fas fa-shield-alt" style="font-size: 36px; color: white;"></i>
+                            </div>
+                            <h3>Serverless Compliance Sentinel</h3>
+                            <p style="color: var(--text-secondary); margin: 1rem 0;">
+                                Built an event-driven security framework processing 1M+ CloudTrail events daily.
+                                Automatically
+                                remediates non-compliant resources in near real-time across 50+ AWS accounts.
+                            </p>
+                            <div class="project-tags">
+                                <span class="tag-sm">Lambda</span>
+                                <span class="tag-sm">EventBridge</span>
+                                <span class="tag-sm">Security Hub</span>
+                                <span class="tag-sm">Python</span>
+                                <span class="tag-sm">Step Functions</span>
+                            </div>
+                            <div
+                                style="margin-top: 1.5rem; padding-top: 1.5rem; border-top: 1px solid var(--glass-border);">
+                                <strong style="color: var(--accent-success);">Impact:</strong>
+                                <p style="color: var(--text-tertiary); font-size: 0.875rem; margin-top: 0.5rem;">
+                                    Reduced security vulnerabilities by 90%, automated 95% of compliance remediation
+                                    tasks
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-4xl mb-4xl">
+                <h2 class="animate-in" style="margin-bottom: 2rem;"><i class="fas fa-code"
+                        style="color: var(--accent-secondary);"></i> Open Source & Community</h2>
+
+                <div class="glass-card animate-in delay-1">
+                    <h3 style="margin-bottom: 1rem;"><i class="fab fa-youtube" style="color: #ff0000;"></i> DevOps Yolu
+                        YouTube Channel</h3>
+                    <p style="color: var(--text-secondary); margin-bottom: 1rem;">
+                        Creating educational content on DevOps, AWS, Kubernetes, and AI/ML technologies.
+                        Helping thousands of engineers advance their cloud careers through practical, hands-on
+                        tutorials.
+                    </p>
+                    <a href="https://youtube.com/@devopsyolu" target="_blank" class="btn btn-primary btn-sm">
+                        <i class="fab fa-youtube"></i> Visit Channel
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="social-links">
+                    <a href="https://github.com/yourusername" target="_blank" class="social-link"><i
+                            class="fab fa-github"></i></a>
+                    <a href="https://linkedin.com/in/yourusername" target="_blank" class="social-link"><i
+                            class="fab fa-linkedin"></i></a>
+                    <a href="https://youtube.com/@devopsyolu" target="_blank" class="social-link"><i
+                            class="fab fa-youtube"></i></a>
+                    <a href="https://twitter.com/yourusername" target="_blank" class="social-link"><i
+                            class="fab fa-twitter"></i></a>
+                </div>
+                <p>&copy; 2026 Kemal Gokhan. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script type="module" src="../src/common.js"></script>
+</body>
+
+</html>
